@@ -1,8 +1,8 @@
 # Maintainer: Florian Bruhin (The Compiler) <archlinux.org@the-compiler.org>
 # Contributor: Thorsten Toepper <atsutane@freethoughts.de>
 
-pkgname=newsbeuter-git
-pkgver=1747.f6eba7c
+pkgname=newsbeuter-duncan
+pkgver=1820.97a22d4
 pkgrel=1
 pkgdesc='A RSS feed reader for the text console with special Podcast support.'
 url='http://www.newsbeuter.org'
@@ -13,7 +13,7 @@ optdepends=('ruby')
 makedepends=('git' 'swig' 'asciidoc' 'docbook-xsl' 'pkgconfig')
 options=('docs' '!libtool')
 conflicts=('newsbeuter')
-source=('git://github.com/akrennmair/newsbeuter.git')
+source=('git://github.com/Duncanla/newsbeuter.git#branch=duncan')
 sha256sums=('SKIP')
 
 pkgver() {
