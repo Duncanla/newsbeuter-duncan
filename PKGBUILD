@@ -2,7 +2,7 @@
 # Contributor: Thorsten Toepper <atsutane@freethoughts.de>
 
 pkgname=newsbeuter-duncan
-pkgver=1820.97a22d4
+pkgver=1874.56c8c2c
 pkgrel=1
 pkgdesc='A RSS feed reader for the text console with special Podcast support.'
 url='http://www.newsbeuter.org'
@@ -18,7 +18,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "$srcdir/newsbeuter"
-  echo $(git rev-list --count master).$(git rev-parse --short master)
+  echo $(git rev-list --count makepkg).$(git rev-parse --short makepkg)
 }
 
 build() {
